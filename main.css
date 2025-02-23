@@ -528,8 +528,10 @@ span{
       grid-template-columns: repeat(3, 1fr); /* 1 column for very small screens */
     }
   }
-.photos figure:hover img{
-    scale: 1.125;
+  .photos img:hover {
+    transform: scale(1.05); /* Subtle zoom effect */
+    transition: 0.4s ease-in-out;
+  }
 }
 
 .contact{
